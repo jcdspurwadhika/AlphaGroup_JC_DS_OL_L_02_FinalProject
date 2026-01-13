@@ -89,7 +89,7 @@ Benchmarking dilakukan dengan fokus pada recall. Berdasarkan hasil benchmarking,
 ### 4. Hyperparameter Tuning
 Hyperparameter tuning dilakukan menggunakan GridSearchCV untuk mengoptimalkan performa kedua model terpilih dan menemukan kombinasi parameter terbaik.
 ### 5. Model Evaluation
-Berdasarkan hasil evaluasi menyeluruh, XGBoost dipilih sebagai final model karena memberikan keseimbangan terbaik antara performa, stabilitas, dan kemampuan generalisasi.
+Berdasarkan hasil evaluasi menyeluruh, XGBoost setelah tuning dipilih sebagai final model karena memberikan keseimbangan terbaik antara performa, stabilitas, dan kemampuan generalisasi.
 
 📊 Model Performance (Test Set)
 
@@ -106,8 +106,14 @@ Classification report tersebut menunjukkan bahwa dengan model XGBoost yang telah
 ### 6. Model Interpretability
 Untuk memahami kontribusi setiap fitur terhadap prediksi, dilakukan analisis feature importance menggunakan SHAP (SHapley Additive exPlanations). Analisis ini membantu menjelaskan faktor-faktor utama yang memengaruhi keputusan model serta meningkatkan transparansi dan kepercayaan terhadap hasil prediksi.
 
+## Deployment
+Berikut link final model yang telah di deploy di Streamlit: https://data-science-project---pwdk-kntrltwjdl9gmwcttvvqs9.streamlit.app/
+
+
 ---
 Alpha Group:
 - Fatimah Zahra
 - Lutfi Aryadi Sukmono
 - Diandra Ayasa Anandipa
+
+
